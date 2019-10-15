@@ -1,0 +1,51 @@
+{
+	"name": "codekandis/qr-code-generator",
+	"description": "This is a library to generate QR codes of various versions and to provide them as different data types.",
+	"keywords": [
+		"php",
+		"qr code generator",
+		"qr",
+		"code",
+		"generator"
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Ramelow",
+			"email": "info@codekandis.net",
+			"homepage": "http://codekandis.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@codekandis.net",
+		"issues": "https://github.com/codekandis/qr-code-generator/issues",
+		"docs": "https://github.com/codekandis/qr-code-generator/blob/master/README.md",
+		"source": "https://github.com/codekandis/qr-code-generator/tree/master"
+	},
+	"require": {
+		"php": "^7.4"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"codekandis/phpunit": "^3"
+	},
+	"repositories": {
+	},
+	"autoload": {
+		"psr-4": {
+			"CodeKandis\\QrCodeGenerator\\": [
+				"src/"
+			]
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CodeKandis\\QrCodeGenerator\\Tests\\": [
+				"tests/"
+			]
+		}
+	}
+}
