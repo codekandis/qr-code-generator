@@ -30,7 +30,8 @@
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-master",
-		"codekandis/phpunit": "^3"
+		"codekandis/phpunit": "^3",
+		"codekandis/constants-classes-translator": "^1"
 	},
 	"repositories": {
 	},
